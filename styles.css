@@ -32,7 +32,11 @@ nav ul li:first-child{
     background-color: #c78c06;
     padding-top: 150px;    
 }
-    
+.Home{
+    color: #222222;
+    font-weight: 600;
+
+}   
 
 nav ul li a{
     text-decoration: none;
@@ -74,8 +78,10 @@ input[type='search'] {
     background-color: #222222;  
     opacity: 0.5;
     position: absolute;
-    margin: 0 auto;
+    margin: auto;
     z-index: -1;
+   
+
 
 }
 
@@ -85,6 +91,8 @@ input[type='search'] {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
     position: relative;
     z-index: -2;
 }
@@ -108,4 +116,29 @@ h1{
     padding: 35px 50px;
     background-color: #c78c06;
     border: none;
+}
+
+
+
+.section-about{
+    background-color: #ffe6ac;
+    overflow: hidden;
+    padding-top: 10px;
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+p{
+    line-height: 1.5;
+    padding: 15px;
 }
