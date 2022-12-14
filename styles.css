@@ -142,3 +142,52 @@ p{
     line-height: 1.5;
     padding: 15px;
 }
+
+.digital, .marketing, .video, .web, .print, .john, .bob{
+    background-color: #ffe6ac;
+    
+}
+
+img:not(#logo){
+    width: 100%;
+    height: auto;
+}
+
+.section-services button{
+    background-color: #222222;
+    color: white;
+    padding: 35px 35px;
+    font-size: 20px;
+    margin: 0 0 10px 10px;
+}
+
+.section-vision{
+    background-image: url(../images/vision.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.section-vision h3{
+    color: white;
+    margin-top: 30px;
+    padding-top: 40px;
+}
+
+.section-vision p{
+    color: white;
+
+}
+
+.section-vision button{
+    background-color: #222222;
+    color: white;
+    padding: 35px 35px;
+    font-size: 20px;
+    margin: 0 0 10px 0px;
+    border: #c78c06 1px solid;
+
+}
+
